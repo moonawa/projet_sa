@@ -1,0 +1,165 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.page{
+    height: 100%;
+    width: 100%;
+}
+.entete{
+    height: 100px;
+    background-color:  rgb(3, 3, 32);
+    position: fixed;
+}
+#chambres{
+    height: 630px;
+
+}
+.rooms{
+    height: 500px;
+    margin-top: 0px;
+}
+.offres{
+    height: 500px; 
+    margin-top: 2%;
+}
+.room{
+    height: 250px;
+
+}
+
+.descriptif{
+    height: 100px;
+   
+}
+.descriptif p{
+    margin-left:8%; 
+    margin-right:15%;
+}
+.texte{
+    position: relative;
+    top: 80%;
+    left:30%;
+    width: 40%;
+    color: black;
+    box-shadow: 1px 2px 10px 5px  white;
+    background-color: blanchedalmond;
+}
+.text{
+    box-shadow: 1px 2px 10px 5px  rgb(166, 216, 236);
+
+}
+.noschambres{
+    height: 200px;
+    text-align: center;
+    margin-bottom:8%;
+}
+
+.titre{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+	position:relative;
+	-webkit-animation-name:defilement;
+	-webkit-animation-duration:10s;
+	-webkit-animation-timing-function:ease;
+	-webkit-animation-delay:1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternative;
+}
+
+@-webkit-keyframes defilement{
+	0% {color:blue; top:0%; right:10%}
+	25% {color:red; top:0%; left:0%}
+	50% {color:blue; top:0%; left:30%}
+	75% {color:red; top:0%; right:0%}
+	100% {color:blue; top:0%; right:30%}
+}
+
+.reservation{
+    height: 200px;
+    box-shadow: 1px 2px 10px 5px  rgb(3, 3, 32);
+    font-size: 15px;
+
+}
+.pied_de_page{
+    height: 150px;
+    margin-top: 1%;
+    background-color:  rgb(3, 3, 32);
+
+
+}
+img {
+     position: absolute; 
+     left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+ }
+
+#img_1 {
+    z-index: 1;
+}
+#img_2 {
+    z-index: 2;
+}
+#img_3 {
+    z-index: 3;
+}
+#img_4 {
+    z-index: 4;
+}
+
+#diapo{
+    height: 400px;
+}
+.reserver{
+    width: 120px;
+}
+#reserver{
+    color: red;
+    width: 120px;
+    margin-left: 47%;
+    margin-top: 30px;
+}
+.images{
+    margin-left: 20%;
+}
+@media screen and (max-width:500px){
+    .reservation{
+        height: 300px;
+        width: 100%;
+        box-shadow: 1px 2px 10px 5px  rgb(3, 3, 32);
+    
+    }
+    .reserver{
+        width: 300px;
+    }
+    #reserver{
+        color: red;
+        width: 120px;
+        margin-left: 47%;
+        margin-top: 10px;
+    }
+    .images{
+        margin-left: 0%;
+    }
+    .rooms{
+        height: 500px;
+        margin-top: 30%;
+    }
+    .texte{
+        position: relative;
+        top: 70%;
+        left:20%;
+        width: 50%;
+        color: black;
+        box-shadow: 1px 2px 10px 5px  white;
+        background-color: blanchedalmond;
+    }
+    .offres{
+        margin-top: 30%;
+    }
+}

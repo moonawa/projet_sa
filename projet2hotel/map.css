@@ -1,0 +1,277 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    
+   
+}
+.header{
+  background-color: #27475d;
+
+}
+
+.header ul{
+  font-size: 20px;
+  transition: 0.6s;
+}
+
+.header li:hover{
+  background-color: gray;
+}
+.h1room{
+  margin-top: 90px;
+  text-align: center;
+}
+
+.imgroom img{
+  margin-top: 100px;
+ width: 100%;
+}
+
+.feature{
+  text-align: center;
+}
+/*silder*/
+.load{
+    animation: slide 2s;
+  }
+  
+  .slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    animation: slide 30s infinite;
+    position: relative;
+  }
+  
+  .content{
+    color: #fff;
+    width: 100%;
+    
+    background-color: darkgrey;
+  }
+  
+  .principal{
+     left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute; 
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  
+  .principal h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+  
+  .principal p{
+    font-size: 20px;
+  }
+  
+  @keyframes slide{
+    0%{
+      background-image: url('foto1.jpg');
+    }
+    
+    20%{
+      background-image: url('foto1.jpg');
+    }
+    
+    20.01%{
+      background-image: url('foto2.jpg');
+    }
+    
+    40%{
+      background-image: url('foto2.jpg');
+    }
+    
+    40.01%{
+      background-image: url('foto3.jpg');
+    }
+    
+    60%{
+      background-image: url('foto3.jpg');
+    }
+    
+    60.01%{
+      background-image: url('foto4.jpg');
+    }
+    
+    80%{
+      background-image: url('foto4.jpg');
+    }
+    
+    80.01%{
+      background-image: url('foto5.jpg');
+    }
+    
+    100%{
+      background-image: url('foto5.jpg');
+    }
+    
+    }
+
+
+    /* footer*/
+   .pied {
+     background-color: #27475d;
+     margin-top: 10%;
+     height: 100%;
+     
+   }
+    .addressayssat{
+       margin: 10px;
+      color:#decdcd;
+    }
+    .addressayssat a{
+      margin: 10px;
+      color: #decdcd;
+      text-decoration: none;
+    }
+    
+    .callawa{
+      color: #decdcd;
+      margin: 10px;
+    }
+    .emailmaodo{
+      color: #decdcd;
+      margin: 10px;
+    }
+    .emailmaodo a{
+      color: #decdcd;
+      text-decoration: none;
+    }
+    .callawa, .addressayssat, .emailmaodo{margin-left: 0;}
+    .icehearth{
+      color: red;
+    }
+    .icehearth:hover{
+      color: blue;
+    }
+    span a{
+      color: #decdcd;
+      text-decoration: none;
+    }
+    span a:hover{
+      color: white;
+    }
+    #foot4{
+      /*! border: 1px solid black; */
+      width: 300px;
+      height: 200px;
+      position: absolute;
+      top: 50px;
+      left:985px;
+        
+      text-align: center;
+    }
+    .social-icons ul{
+      text-align: center;
+      display: flex;
+      position: static;
+      margin-top: 20px;
+     
+      
+    }
+    .social-icons ul li{
+      background-color: black;
+      list-style-type: none;
+      font-size: 25px;
+      transition: 0.6s;
+    }
+    
+    .social-icons ul li a{
+      width: 0px;
+      padding: 20px;
+      color: white;
+     
+    }
+    
+    .social-icons li:nth-child(1){
+      background-color: #3b5999;
+    }
+    
+    .social-icons li:nth-child(2){
+      background-color: #55acee;
+    }
+    
+    .social-icons li:nth-child(3){
+      background-color: #e4405f;
+    }
+    
+    .social-icons li:nth-child(4){
+      background-color: #0077B5;
+    }
+    
+    .social-icons ul li:hover{
+      transform: translateY(-8px);
+      box-shadow: 0 10px 10px rgba{255, 255, 255, .2};
+        
+    }
+    .h3-foot{
+      color: white;
+      
+    }
+    .foot2 a{
+      
+      text-decoration: none;
+      display: block;
+      padding: 10px 0px;
+      color: #decdcd;
+    }
+    .foot2 a:hover{
+      color: white;
+    }
+    
+    .foot1 p{
+      margin-top: 10px;
+      color: #decdcd;
+    }
+    /* buton*/
+    .box-readmore{
+      margin-top: 10px;
+      text-align: start;
+    }
+    .box-readmore a{
+      text-decoration: none;
+      color: white;
+    }
+    button{
+      background-color: red;
+      border: none;
+      font-size: 1.3em;
+      margin-left: 5px;
+      color: #fff;
+      border-radius: 10px;
+      padding: 5px;
+    }
+    button:hover{
+    background-color: green;
+    }
+    
+    .copyright{
+      
+    margin-bottom: 5px;
+      margin-left: 0%;
+    
+    }
+    .droits {
+      text-align: center;
+      color: #decdcd;
+
+    }
+  .droits {
+      text-align: center;
+      color: #decdcd;
+      margin-left: 0%;
+      margin-top: 50px;
+
+    }
+    .gallery{
+      margin-bottom: 0%;
+      position: relative;
+    }
+  
+  

@@ -1,0 +1,189 @@
+body{
+
+width: 98%;
+font-size: 15px;
+
+}
+.group{
+    margin-left: 10%;
+}
+.col{
+    margin-top: 25px;
+}
+
+.form{
+    width:25%;
+height: 30px;
+border-color: lightcoral;
+border-radius: 0.25rem;
+border-top-left-radius: 0.25rem;
+border-top-right-radius: 0.25rem;
+border-bottom-right-radius: 0.25rem;
+border-bottom-left-radius: 0.25rem;  
+}
+
+.label{
+  
+    display: block;
+}
+
+
+
+
+.group1
+{
+    margin-left: 10%;
+}
+.col1{
+    margin-top: 25px;
+}
+.form1{
+    width:25%;
+    height: 30px;
+    border-color: lightcoral;
+    border-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;   
+
+
+}
+.label1{
+  
+    display: block;
+}
+
+
+
+
+.group2
+{
+    margin-left: 10%;
+}
+.col2{
+    margin-top: 25px;
+}
+.form2{
+    width:25%;
+    height: 30px;
+    border-color: lightcoral;
+    border-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;  
+}
+.label2{
+  
+    display: block;
+}
+
+
+
+.group3
+{
+    margin-left: 10%;
+}
+.col3{
+    margin-top: 25px;
+}
+.form3{
+    width:40%;
+    height: 150px;
+    border-color: lightcoral;
+    border-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;  
+}
+.label3{
+  
+    display: block;
+}
+
+.row{
+
+    margin-left: 15%;
+    margin-top: 20px;
+
+}
+.touch{
+
+    height: 40px;
+    border-color: lightcoral;
+    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;  
+    background-color: red;
+    color:white;
+    font-size: 18px;
+    padding: 1;
+}
+.cont3{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.conth{
+margin-left: 60%;
+margin-top: 50px;
+display: block;
+
+}
+.continf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+
+}
+.adress{
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.text{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.phone{
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.num{
+    color:red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+.mail{
+    color: gray;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.your a{
+    color:red;
+    text-decoration:none ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.map{
+    margin-left: 38%;
+    margin-top: -550px;
+    border-color: lightcoral;
+    border-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem; 
+    
+}

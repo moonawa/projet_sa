@@ -1,0 +1,31 @@
+*{
+    font-family: 'Crimson Text', serif;
+}
+
+.redim{
+    width: 100%;
+    height: 330px;
+}
+.rm-gal{
+    width: 100%;
+    height: 150px;
+    margin-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.supp-pad-a{
+    padding-left: 0px;
+    padding-right: 0px; 
+}
+
+nav > img{
+   height: 350px;
+   margin: 10px;
+}
+
+strong{
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}
